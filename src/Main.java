@@ -2,10 +2,13 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int result;
-		result = calculSomme(4,2);
-		result = Soutract(4,2);
-		System.out.println(result);
+		int resultSomme, resultSoustraction;
+		int a = 4;
+		int b = 2;
+		resultSomme = calculSomme(4,2);
+		resultSoustraction = Soutract(4,2);
+		System.out.println("Somme de : "+a+"+"+b+" = " + resultSomme + "\n");
+		System.out.println("Soustraction de : "+a+"-"+b+" = " + resultSoustraction);
 	}
 
 	public static int calculSomme(int a, int b) {
